@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+                //DATA TYPES
+
+                //  * primitive datatype
+                //  * non primitive datatype
+
+
+       //PRIMITIVE DATA TYPE
+       
+       //string
+        var a="hello world"
+
+        console.log(a)
+        console.log(typeof a)
+
+        //number
+
+        var b1=10;
+        var b2=20;
+        var b3=b1+b2;
+
+        console.log(b3)
+        console.log(typeof b3)
+
+        //boolean
+
+        var c1 =10;
+        var c2=20;
+
+        console.log(c1==c2)
+
+        //undefined
+
+        var d;
+
+        console.log(d)
+
+        //null
+
+        let d1=document.getElementById("btn")
+        console.log(d1)
+
+
+                        //NON PRIMITIVE DATA TYPE
+
+            //array
+            
+            let arr=[1,2,3,4,5]
+
+            console.log(typeof arr+"  "+arr);
+            
+
+            //object
+
+            let obj={name:"sakthi",age:21}
+
+            console.log(obj)
+            console.log(typeof obj );
+
+
+
+
+                    //OPERATORS
+
+                    //  * arithmetic operator
+                    //  * assignment operator
+                    //  * comparison operator
+                    //  * logical operator
+                    //  * bitwise operator
+                    //  * conditional operators(terneray operator)
+                    //  * unary operators
+
+           //ARITHMETIC OPERATORS  ( + , - , / , * , ** , % , ++ , --)       
+
+           let e=10;
+
+           console.log(e **2); 
+
+           let e1=20;
+           console.log(e1 % 3)
+
+
+            // pre / post increment
+
+           let e2=12;
+           
+            console.log(e2++)
+            console.log(e2)
+
+            //ASSIGNMENT OPERATORS()(+ , - , * , % , / , ! )
+
+            let f=10;
+
+            f+=10;
+            console.log(f)
+
+            let f1=5;
+            f1-=1;
+            console.log(f)
+
+            let f3=10;
+            f3%=3;
+            console.log(f3)
+
+            let f4=13;
+            f4!==5;
+            console.log(f4);
+
+
+            // COMPARISON OPERATORS(>,<,>=,<=,==,!=,!==,===)
+
+            let g1=10;
+
+            console.log(g1 > 8);
+
+            console.log(g1 < 2);
+
+            console.log(g1 >=10);
+
+            console.log(g1 <=10);
+
+            console.log(g1 == 5);
+
+            console.log(g1 !="10");
+
+            console.log(g1 !=="10");
+
+            console.log(g1 ===10);
+
+
+
+            //LOGICAL OPERATORS (&&,||,!)
+
+            let h1 = 20;
+            let h2= 40;
+
+            console.log((h1 > 10)&&(h2 < 20)); //false
+            
+            console.log((h1 > 10)&&(h2 < 20))  //true
+
+            console.log(!(h1==10))      //true
+
+
+            //BITWISE( & , | , ~ , << , >> , ^ )
+
+                console.log(2 & 3); //bitwise and operator   // 2 
+                
+                console.log(1 | 2) // it returns // 3
+                
+              console.log(2 << 1) //it  goes previous bitwise code ,like square // 4
+              
+              console.log(4 >> 1) //it  goes next bitwise code ,like divide// 2
+
+              console.log(3 ^ 1) // it return 1 , 1 fail. otherwise return position value.// 2  
+              
+              
+              //RERNIARY OPERATOR
+
+              console.log((10 > 8 ?"true" : "false"));  // true
+
+              //UNARY OPERATOR(typeof,delete,void)
+
+              let obj1={name:"sakthi"}
+
+              console.log(typeof obj1)
+              delete obj1.name
+              console.log(obj1)
+    </script>
+</body>
+</html>
